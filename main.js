@@ -1,5 +1,5 @@
 import OBR from "@owlbear-rodeo/sdk";
-import { getExtensionId } from "./utils";
+import { getExtensionId, nameDisplay } from "./utils";
 
 const menu_id = getExtensionId("menu")
 

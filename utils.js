@@ -1,5 +1,3 @@
-import OBR, { isImage } from "@owlbear-rodeo/sdk";
-
 export function getExtensionId(module) {
     return `com.avrae-targetting/${module}`
 }
