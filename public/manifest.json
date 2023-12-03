@@ -4,5 +4,6 @@
     "manifest_version": 1,
     "background_url": "/index.html",
     "icon": "/logo.svg",
+    "author": "Croebh",
     "description": "Copies the `-t` targets for all selected tokens."
   }
