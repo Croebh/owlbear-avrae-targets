@@ -1,0 +1,8 @@
+{
+    "name": "Avrae Targetting [DEV]",
+    "version": "1.0.0",
+    "manifest_version": 1,
+    "background_url": "/index.html",
+    "icon": "/avrae.svg",
+    "description": "Copies the `-t` targets for all selected tokens."
+  }

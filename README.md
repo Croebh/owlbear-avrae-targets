@@ -1,0 +1,1 @@
+An Owlbear 2 extension for quickly copying the Avrae -t targets for a given selection.
