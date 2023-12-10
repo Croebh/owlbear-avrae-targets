@@ -7,6 +7,10 @@ export function getExtensionId(module) {
  */
 export function nameDisplay(item, sceneMetadata) {
     let name = item.text.plainText.replace(/(\r\n|\n|\r)/gm, "");
+    if (!name && item.text.richText) {
+        name = item.text.richText[0].children[0].text.replace(/(\r\n|\n|\r)/gm, "");
+    }
+
     name = name.replace(/\s+(\d+)$/g, "$1");
     
     if (name) {
